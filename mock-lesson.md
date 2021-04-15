@@ -140,12 +140,6 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 
 ## Basic Commands
 
-### `whoami`
-* prints your username to the terminal
-
-### `hostname`
-* prints your computer's name to the terminal
-
 ### `echo`
 * prints a text string (denoted by quotes) to the terminal
 * usage: `echo "Hello, World"`
@@ -155,38 +149,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * press `q` to quit
 * usage: `man <name_of_command>`
 
-### `uname`
-* shows you the operating system name
-* usage: `uname -a`
-
-### `curl`
-* downloads and shows you the source code of a website
-* usage 1: `curl 'https://api.ipify.org'`
-* usage 2: `curl 'http://example.org'`
-* usage 3: `curl 'http://dhrumilmehta.com'`
-
-### `clear`
-* **clear**s all output from your console
-* on macOS, you can also press `Ctrl+L` to clear your console while retaining history or `Cmd-K` to clear console while deleting the history. `Ctrl+L` should work on Ubuntu as well.
-
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
-
-1. print your username to the command line using `whoami`
-2. print your computer's name to the command line using `hostname`
-3. print the name of your operating system using `uname`
-4. take a look at the manual page for the `uname` command. Then, use `uname` with options to:
-	* print the operating system name
-	* print the operating system release
-	* print the operating system name and release together
-	* print the machine hardware name and the processor architecture together
-	* print as much information as you can all at once using `uname`.
-5. print 'I did it. I'm so cool.' to the terminal using `echo`
-
-**Bonus** 
-
-1. print "I did it! I'm so cool!" (hint: google "escaping characters in bash")
-
-**Protip**: Use the ↑ and ↓ arrow keys to navigate previously entered commands.
+... remaining basic commands have been removed, as this is an abridged lesson!
 
 ## Figuring out New Commands
 
@@ -206,7 +169,27 @@ don't go down rabbit holes trying to figure something out if there is someone wh
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Let's see if you can learn how to use a new command! Experiment working with `cowsay` in the command line by completing the following assignment: https://classroom.github.com/a/62sqVx4G
+Let's see if you can learn how to use a new command! Experiment working with `cowsay` in the command line by completing the following assignment:
+
+### Tasks
+(each phrase, including bonuses, is worth 10 points):
+
+1. Make cow say: 1) Individuals and interactions over processes and tools 2) Working software over comprehensive documentation 3) Customer collaboration over contract negotiation 4) Responding to change over following a plan
+
+2. Make a dead cow say the same text
+
+3. Make cow say "moo" with eyes changed to "zz"
+
+4. Make cow say "moo" with tongue changed to "$$". (hint: is it not displaying properly? google "escaping characters in bash")
+
+5. Make cow say "moo" with eyes changed to "zz" AND tongue changed to "$$"
+
+6. Make cow think "ask what you can do!" with thought bubble wrapping every 4 characters
+
+7. (bonus task) Turn cow into a moose that says "Hello, world!"
+
+8. (bonus task) Turn cow into a fox that says "Hello, world!" (hint: You'll have to install a new cow - https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow)
+
 
 ## Dangers
 
