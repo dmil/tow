@@ -1,6 +1,7 @@
 # Command Line (Abridged Lesson)
 
-- Full lesson plan is available in the [code4policy GitHub repo](https://github.com/code4policy/modules)
+- Full lesson plan is available in the code4policy [GitHub repo](https://github.com/code4policy/modules)
+- "Flipped Classroom" video available on [Panopto](https://harvard.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=301dc6aa-8418-4872-ae10-ac9d0065911f) or [YouTube](https://www.youtube.com/watch?v=YsYWJWCNR_0)
 
 # Learning Objectives
 
